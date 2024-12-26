@@ -1,0 +1,29 @@
+/* Basic styles for product page */
+.product-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.product-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-details {
+    padding-left: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
